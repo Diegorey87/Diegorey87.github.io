@@ -1,0 +1,41 @@
+/* Color Top - #171c21 Dark Grey  */
+/* Color Background - #222222 Grey  */
+/* Color Logo - #1599f5 light blue 
+                #187edb medium blue
+                #1b4a70 dark blue  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* light-blue/teal color */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* apply styles to <header> */
+header {
+  padding: 20px 35px;
+  background-color: #171c21;
+}
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  background: -webkit-linear-gradient(#1599f5, #187edb, #1b4a70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+header nav {
+  float: right;
+  margin: 20px 0;
+}
+header nav ul li {
+  display: inline;
+}
